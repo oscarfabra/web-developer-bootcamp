@@ -1,0 +1,26 @@
+h1 {
+  /*color: red;*/
+  /*color: #ff0000;*/
+  /*color: rgb(255, 0, 0);*/
+  color: rgba(11, 99, 150, .6);
+/*  border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 5px dashed rgb(255, 100, 80);
+}
+
+li {
+  color: green;
+}
+
+h4 {
+  /*color: purple;*/
+  background: rgb(255, 100, 80);
+}
+
+body {
+  background: pink;
+  /*background: url(https://img.freepik.com/free-photo/background-of-gray-cement-wall-with-wooden-texture_1372-571.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
