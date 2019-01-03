@@ -31,8 +31,8 @@ function sumArray(arr) {
 }
 // Exercise 4
 // function max(arr) {
-//   var max = Number.NEGATIVE_INFINITY;
-//   for(var i = 0; i < arr.length; i++) {
+//   var max = arr[0];
+//   for(var i = 1; i < arr.length; i++) {
 //     if(arr[i] > max) {
 //       max = arr[i];
 //     }
@@ -40,7 +40,7 @@ function sumArray(arr) {
 //   return max;
 // }
 function max(arr) {
-  var max = Number.NEGATIVE_INFINITY;
+  var max = arr[0];
   arr.forEach(function(n) {
     if(n > max) {
       max = n;
